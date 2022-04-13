@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-container{
+    margin: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-container1{
+    margin: 5%;
+    height: 100%;
+    padding-top: 20px;
+    
+}
+
+#trip{
+   font-size:3.5rem;
+   font-style: oblique;   
+   margin-left: 530px;
+   
+}
+
+.upper-container2{
+    margin:0%;
+    height: 100%;
+    padding-top:20px;
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+#circle2{
+    margin-left: 200px;
+    margin-top: 80px;
+    width: 830px;
+}
+
+#back{
+    position:absolute;
+    width:441px;
+    height:100%;
+    top:80;
+    right: 350;
+    font-size:30px;
+    padding-top:20px;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.card1{
+    margin-top: 20px;
+    border: 1px solid green;
+    height: 45vh;
+    width: 15%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px lightseagreen;
+    margin: auto;
+    top: 40px;
+
+}
+
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    width: 85%;
+    text-align: left;
+    height: 15%;
+    color: #cc80cc;
+    border-bottom: 1px solid black;
+}
+
+.div2{
+    width: 90%;
+    height:10%;
+    font-size: 22px;
+    color: #fc8617;
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+
+.div3{
+    width: 90%;
+    height:10%;
+    position: absolute;
+    top:52%;
+    text-align: left;
+    font-size: 25px;
+}
+
+#check{
+    width:25px;
+    height:25px;
+    margin-left: 10px;
+
+}
+
+#circle{
+    margin-top: 100px;
+    margin-left: 195px;
+}
+
+.notshow{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.pop-up{
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    height: 25vh;
+    width: 27%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: 18px;
+    box-shadow: 3px 3px 10px lightseagreen;
+    background-color: white;
+    padding: 20px;
+}
+
+.add-new{
+   opacity: 0.7px;
+   font-size: 17px;
+}
+.pop-upbar{
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 85%;
+    height: 27%;
+    border: 1.5px solid red;
+    box-shadow: 1px 1px 3px lightseagreen;
+}
+
+.pop-up-button{
+    width: 25%;
+    height: 20%;
+    margin-top: 18px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 150px;
+    font-size: 20px;
+
+}
+
+.button{
+    margin-top: 0px;
+    background-color: white;
+}
+
+.links{
+    margin-top: 50px;
+}
+
